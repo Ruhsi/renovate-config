@@ -1,9 +1,11 @@
 {
+  "version": "1.0.0",
+  "name": "gepardec",
   "extends": [
+    "local>ruhsi/renovate-config:addassignee(Ruhsi)",
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
-    ":timezone(Europe/Vienna)",
-    "local>ruhsi/renovate-config:addassignee(Ruhsi)"
+    ":timezone(Europe/Vienna)"
   ],
   "recreateWhen": "always",
   "allowPostUpgradeCommandTemplating": true,
