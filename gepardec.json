@@ -2,10 +2,10 @@
   "extends": [
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
-    ":timezone(Europe/Vienna)"
+    ":timezone(Europe/Vienna)",
+    "local>ruhsi/renovate-config:addassignee(Ruhsi)"
   ],
   "recreateWhen": "always",
   "allowPostUpgradeCommandTemplating": true,
-  "allowScripts": true,
-  "assignees": ["{{arg0}}"]
+  "allowScripts": true
 }
