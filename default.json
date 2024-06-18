@@ -1,0 +1,10 @@
+{
+  "labels": {
+    "description": "Apply labels <code>{{arg0}}</code> and <code>{{arg1}}</code> to PRs",
+    "labels": ["{{arg0}}", "{{arg1}}"]
+  },
+  "assignee": {
+    "description": "Assign PRs to <code>{{arg0}}</code>",
+    "assignees": ["{{arg0}}"]
+  }
+}
