@@ -7,8 +7,5 @@
   "recreateWhen": "always",
   "allowPostUpgradeCommandTemplating": true,
   "allowScripts": true,
-  "assignee": {
-    "description": "Assign PRs to <code>{{arg0}}</code>",
-    "assignees": ["{{arg0}}"]
-  }
+  "assignees": ["{{arg0}}"]
 }
