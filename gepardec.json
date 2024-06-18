@@ -1,0 +1,11 @@
+{
+  "extends": [
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":timezone(Europe/Vienna)",
+    ":assignee(Ruhsi)"
+  ],
+  "recreateWhen": "always",
+  "allowPostUpgradeCommandTemplating": true,
+  "allowScripts": true
+}
