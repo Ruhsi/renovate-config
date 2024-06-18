@@ -1,0 +1,6 @@
+{
+  "assignee": {
+    "description": "Assign PRs to <code>{{assignee}}</code>.",
+    "assignees": ["{{assignee}}"]
+  }
+}

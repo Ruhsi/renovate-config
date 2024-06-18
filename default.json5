@@ -2,8 +2,7 @@
   "extends": [
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
-    ":timezone(Europe/Vienna)",
-    ":assignee(Ruhsi)"
+    ":timezone(Europe/Vienna)"
   ],
   "recreateWhen": "always",
   "allowPostUpgradeCommandTemplating": true,
